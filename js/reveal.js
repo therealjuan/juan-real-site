@@ -39,15 +39,15 @@
 
 			// The "normal" size of the presentation, aspect ratio will be preserved
 			// when the presentation is scaled to fit different resolutions
-			width: 960,
-			height: 700,
+			width: "100%",
+			height: "100%",
 
 			// Factor of the display size that should remain empty around the content
-			margin: 0.04,
+			margin: 0,
 
 			// Bounds for smallest/largest possible scale to apply to content
-			minScale: 0.2,
-			maxScale: 2.0,
+			minScale: 1.0,
+			maxScale: 1.0,
 
 			// Display presentation control arrows
 			controls: true,
@@ -77,7 +77,7 @@
 			showSlideNumber: 'all',
 
 			// Push each slide change to the browser history
-			history: false,
+			history: true,
 
 			// Enable keyboard shortcuts for navigation
 			keyboard: true,
@@ -93,7 +93,7 @@
 			disableLayout: false,
 
 			// Vertical centering of slides
-			center: true,
+			center: false,
 
 			// Enables touch navigation on devices with touch input
 			touch: true,

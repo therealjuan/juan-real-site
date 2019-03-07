@@ -19,6 +19,19 @@ module.exports = function(grunt) {
 				' */'
 		},
 
+		copy: {
+			css: {
+				expand: true,
+				cwd: './node_modules/',
+				dest: './css/',
+				flatten: true,
+				filter: 'isFile',
+				src: [
+					'./flexboxgrid/dist/flexboxgrid.min.css'
+				]
+			}
+		},
+
 		qunit: {
 			files: [ 'test/*.html' ]
 		},
@@ -157,6 +170,7 @@ module.exports = function(grunt) {
 	// Dependencies
 	grunt.loadNpmTasks( 'grunt-contrib-connect' );
 	grunt.loadNpmTasks( 'grunt-contrib-cssmin' );
+	grunt.loadNpmTasks( 'grunt-contrib-copy' );
 	grunt.loadNpmTasks( 'grunt-contrib-jshint' );
 	grunt.loadNpmTasks( 'grunt-contrib-qunit' );
 	grunt.loadNpmTasks( 'grunt-contrib-uglify' );
@@ -167,7 +181,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks( 'grunt-zip' );
 
 	// Default task
-	grunt.registerTask( 'default', [ 'css', 'js' ] );
+	grunt.registerTask( 'default', [ 'css', 'js', 'copy' ] );
 
 	// JS task
 	grunt.registerTask( 'js', [ 'jshint', 'uglify', 'qunit' ] );
@@ -185,7 +199,7 @@ module.exports = function(grunt) {
 	grunt.registerTask( 'package', [ 'default', 'zip' ] );
 
 	// Serve presentation locally
-	grunt.registerTask( 'serve', [ 'connect', 'watch' ] );
+	grunt.registerTask( 'serve', [ 'default', 'connect', 'watch' ] );
 
 	// Run tests
 	grunt.registerTask( 'test', [ 'jshint', 'qunit' ] );

@@ -11,33 +11,39 @@
     "build": "grunt"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
+    "name": "Juan Real",
+    "email": "pheurton@gmail.com",
+    "web": "https://juanreal.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com/therealjuan/reveal.js.git"
   },
   "engines": {
     "node": ">=4.0.0"
   },
   "devDependencies": {
-    "express": "^4.16.2",
+    "connect": "^3.6.6",
+    "express": "^4.16.4",
     "grunt": "^1.0.1",
     "grunt-autoprefixer": "^3.0.4",
     "grunt-cli": "^1.2.0",
     "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^2.2.1",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-qunit": "^2.0.0",
     "grunt-contrib-uglify": "^3.3.0",
     "grunt-contrib-watch": "^1.0.0",
-    "grunt-sass": "^2.0.0",
     "grunt-retire": "^1.0.7",
+    "grunt-sass": "^2.0.0",
     "grunt-zip": "~0.17.1",
     "mustache": "^2.3.0",
+    "serve-static": "^1.13.2",
     "socket.io": "^1.7.3"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "flexboxgrid": "^6.3.1"
+  }
 }

@@ -1,0 +1,591 @@
+/**
+ * Black theme for reveal.js. This is the opposite of the 'white' theme.
+ *
+ * By Hakim El Hattab, http://hakim.se
+ */
+ @import url(https://use.typekit.net/kkn3cef.css);
+ /* section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
+   color: #222; } */
+
+ /*********************************************
+  * GLOBAL STYLES
+  *********************************************/
+
+  body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+
+ .reveal {
+   font-family: 'Libre Baskerville', Helvetica, sans-serif;
+   font-size: 2rem;
+   font-weight: normal;
+   color: #fff; }
+
+ ::selection {
+   color: #fff;
+   background: #bee4fd;
+   text-shadow: none; }
+
+ ::-moz-selection {
+   color: #fff;
+   background: #bee4fd;
+   text-shadow: none; }
+
+ .reveal .slides section,
+ .reveal .slides section > section {
+   line-height: 1.3;
+   font-weight: inherit; }
+
+ /*********************************************
+  * HEADERS
+  *********************************************/
+ .reveal h1,
+ .reveal h2,
+ .reveal h3,
+ .reveal h4,
+ .reveal h5,
+ .reveal h6 {
+   /* margin: 0 0 20px 0; */
+   /* color: #fff; */
+   font-family: 'Libre Baskerville', Helvetica, sans-serif;
+   font-weight: 400;
+   line-height: 1.2;
+   letter-spacing: normal;
+   /* text-transform: uppercase; */
+   text-shadow: none;
+   word-wrap: break-word; }
+
+ /* .reveal h1 {
+   font-size: 2.5em; }
+
+ .reveal h2 {
+   font-size: 1.6em; }
+
+ .reveal h3 {
+   font-size: 1.3em; }
+
+ .reveal h4 {
+   font-size: 1em; } */
+
+ .reveal h1 {
+   text-shadow: none; }
+
+ /*********************************************
+  * OTHER
+  *********************************************/
+ .reveal p {
+   /* margin: 20px 0; */
+   line-height: 1.3; }
+
+ /* Ensure certain elements are never larger than the slide itself */
+ .reveal img,
+ /* .reveal video, */
+ .reveal iframe {
+   max-width: 95%;
+   max-height: 95%; }
+
+ .reveal strong,
+ .reveal b {
+   font-weight: bold; }
+
+ .reveal em {
+   font-style: italic; }
+
+ .reveal ol,
+ .reveal dl,
+ .reveal ul {
+   display: inline-block;
+   text-align: left;
+   margin: 0 0 0 1em; }
+
+ .reveal ol {
+   list-style-type: decimal; }
+
+ .reveal ul {
+   list-style-type: disc; }
+
+ .reveal ul ul {
+   list-style-type: square; }
+
+ .reveal ul ul ul {
+   list-style-type: circle; }
+
+ .reveal ul ul,
+ .reveal ul ol,
+ .reveal ol ol,
+ .reveal ol ul {
+   display: block;
+   margin-left: 40px; }
+
+ .reveal dt {
+   font-weight: bold; }
+
+ .reveal dd {
+   margin-left: 40px; }
+
+ .reveal blockquote {
+   display: block;
+   position: relative;
+   width: 70%;
+   margin: 20px auto;
+   padding: 5px;
+   font-style: italic;
+   background: rgba(255, 255, 255, 0.05);
+   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+
+ .reveal blockquote p:first-child,
+ .reveal blockquote p:last-child {
+   display: inline-block; }
+
+ .reveal q {
+   font-style: italic; }
+
+ .reveal pre {
+   display: block;
+   position: relative;
+   width: 90%;
+   margin: 20px auto;
+   text-align: left;
+   font-size: 0.55em;
+   font-family: monospace;
+   line-height: 1.2em;
+   word-wrap: break-word;
+   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+
+ .reveal code {
+   font-family: monospace;
+   text-transform: none; }
+
+ .reveal pre code {
+   display: block;
+   padding: 5px;
+   overflow: auto;
+   max-height: 400px;
+   word-wrap: normal; }
+
+ .reveal table {
+   margin: auto;
+   border-collapse: collapse;
+   border-spacing: 0; }
+
+ .reveal table th {
+   font-weight: bold; }
+
+ .reveal table th,
+ .reveal table td {
+   text-align: left;
+   padding: 0.2em 0.5em 0.2em 0.5em;
+   border-bottom: 1px solid; }
+
+ .reveal table th[align="center"],
+ .reveal table td[align="center"] {
+   text-align: center; }
+
+ .reveal table th[align="right"],
+ .reveal table td[align="right"] {
+   text-align: right; }
+
+ .reveal table tbody tr:last-child th,
+ .reveal table tbody tr:last-child td {
+   border-bottom: none; }
+
+ .reveal sup {
+   vertical-align: super;
+   font-size: smaller; }
+
+ .reveal sub {
+   vertical-align: sub;
+   font-size: smaller; }
+
+ .reveal small {
+   display: inline-block;
+   font-size: 0.6em;
+   line-height: 1.2em;
+   vertical-align: top; }
+
+ .reveal small * {
+   vertical-align: top; }
+
+ /*********************************************
+  * LINKS
+  *********************************************/
+ .reveal a {
+   color: #42affa;
+   text-decoration: none;
+   -webkit-transition: color .15s ease;
+   -moz-transition: color .15s ease;
+   transition: color .15s ease; }
+
+ .reveal a:hover {
+   color: #8dcffc;
+   text-shadow: none;
+   border: none; }
+
+ .reveal .roll span:after {
+   color: #fff;
+   background: #068de9; }
+
+ /*********************************************
+  * IMAGES
+  *********************************************/
+ /* .reveal section img {
+   margin: 15px 0px;
+   background: rgba(255, 255, 255, 0.12);
+   border: 4px solid #fff;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); } */
+
+ .reveal section img.plain {
+   border: 0;
+   box-shadow: none; }
+
+ .reveal a img {
+   -webkit-transition: all .15s linear;
+   -moz-transition: all .15s linear;
+   transition: all .15s linear; }
+
+ .reveal a:hover img {
+   background: rgba(255, 255, 255, 0.2);
+   border-color: #42affa;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+
+ /*********************************************
+  * NAVIGATION CONTROLS
+  *********************************************/
+ .reveal .controls {
+   color: #000; }
+
+ /*********************************************
+  * PROGRESS BAR
+  *********************************************/
+ .reveal .progress {
+   background: rgba(0, 0, 0, 0.2);
+   color: #42affa; }
+
+ .reveal .progress span {
+   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+   transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+ /*********************************************
+  * PRINT BACKGROUND
+  *********************************************/
+ @media print {
+   .backgrounds {
+     background-color: #222; } }
+
+/*********************************************
+  * SLIDEs
+  *********************************************/
+
+  /* Slide 1 */
+
+  .controls {
+    padding: 2rem 1.4rem;
+    margin: 1rem;
+  }
+
+  .reveal .slides > section, .reveal .slides > section > section {
+    padding: 0;
+    height: 100%;
+  }
+
+.col1, .col2,  .col3, .col4, .col5 {
+  height: 100%;
+  align-self: center;
+  background-size: cover;
+}
+
+.reveal .slides .grid {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1vmin;
+  grid-row-gap: 1.2vmin;
+  height: 100%;
+}
+
+ .col1 { grid-area: col1; }
+ .col2 { grid-area: col2; }
+ .col3 { grid-area: col3; }
+ .col4 { grid-area: col4; }
+ .col5 { grid-area: col5; }
+
+ .reveal .slides .grid-0 {
+  grid-template-areas: "col1 col2";
+}
+ .reveal .slides .grid-1 {
+  grid-template-areas: "col1 col2" "col3 col3";
+}
+
+ .reveal .slides .grid-2 {
+  grid-template-areas: "col1 col2" "col3 col4";
+}
+
+.reveal .slides .grid-3 {
+  grid-template-areas: "col1 col2" "col1 col3";
+}
+
+.reveal .slides .grid-4 {
+  grid-template-areas: "col1 col2" "col3 col3";
+}
+
+.reveal .slides .grid-5 {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "col1 col2 col3" "col4 col4 col4";
+}
+
+.reveal .slides .grid-6 {
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-areas: "col1 col1 col2 col2 col3 col3" "col4 col4 col4 col5 col5 col5";
+}
+
+.reveal .slides .grid-7 {
+  grid-template-areas: "col1 col3" "col2 col3";
+}
+
+.reveal .slides .grid-8 {
+  grid-template-areas: "col1 col1" "col2 col3";
+}
+
+.reveal .slides .grid-9 {
+  grid-template-areas: "col1 col2 col3";
+  grid-template-columns: 1fr 1fr 2fr;
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.reveal .slides .grid-10 {
+  grid-template-areas: "col1 col1 col1" "col2 col3 col4";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  height:100%;
+  width:100%;
+}
+
+.reveal video {
+  max-width: auto;
+  max-height: auto;
+}
+
+.video-container video.max-height {
+  height: 100%;
+}
+.video-container video.max-width {
+  width: 100%;
+}
+.video-container video {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.background {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  text-align: left;
+  padding: 4vh 4vw;
+}
+
+.grid h2 {
+  margin: 0;
+}
+
+.center-aligned {
+  place-content: center center;
+  display: grid;
+}
+
+#passion-1 .col1 { background: #51e2c2; }
+#passion-2 .col3 { background: #ffe91c; }
+#passion-3 .col1 { background: #fe532c; }
+
+#snap .logo { width: 34vh; }
+#roli .logo { height: 12vh; }
+#hudl .logo { height: 6vh; margin-top: 2vh;}
+#tfl .logo { height: 10vh; }
+#w3w .logo { height: 5vh; margin-top: 2vh; }
+#bcard .logo { height: 5vh; margin-top: 2vh;}
+#canon .logo { height: 5vh; margin-top: 1vh; }
+
+#ustwo-logo { width: 16vh; }
+#possible-logo { width: 24vh; }
+
+.position {
+  position: absolute;
+  right: 4vw;
+  top: 2vh;
+}
+
+.reveal .job {
+  text-align: left;
+  font-family: proxima-nova;
+  font-size: 2.6vh;
+}
+
+.reveal .tags,
+.company-logo {
+  position: absolute;
+  text-align: left;
+  list-style-type: none;
+  bottom: 6vh;
+}
+
+.company-logo {
+  right: 4vw;
+  top: 6vh;
+  width: 24vh;
+}
+
+.reveal .tags {
+  float: left;
+  left: 4vw;
+  margin: 0;
+  padding: 0;
+}
+
+.tags li {
+  margin-right: 1vw;
+  font-family: proxima-nova, Arial, Helvetica, sans-serif;
+  padding: 0.6rem 1rem;
+  font-size: 2vh;
+  float: left;
+}
+
+.black { background: black; }
+.light-green { background: #82bfa1; }
+.dark-green { background: #62977d; }
+.light-aqua { background: #84CDBB;}
+.dark-aqua { background: #00B0AF;}
+.orange { background: #e95420; }
+.red { background: #ED3024; }
+.light-blue { background: #006C96; }
+.blue { background: #0081AD; }
+.dark-blue { background: #009CC0; }
+
+#snap .fact { color: #fa6340;}
+#roli .fact { color: #62E2FF; }
+#tfl .fact { color: #84CDBB; }
+
+.reveal .fact {
+  font-size: 3vh;
+  line-height: 4.2vh;
+}
+
+.reveal h4 {
+  font-size: 6vh;
+  line-height: 8vh;
+  margin-bottom: 4vh;
+  margin-top:0;
+}
+
+.reveal h3 {
+  text-transform: uppercase;
+  font-family: 'Proxima Nova';
+  font-size: 3vh;
+  opacity: 0.4;
+  margin-top: 4vh;
+}
+
+.black-frame {
+  background: black;
+  color: white;
+}
+
+.vertical-grid-centering {
+  align-self: center;
+}
+
+.reveal h1 {
+  padding: 3vh;
+  font-size: 8vh;
+  float: left;
+}
+
+.reveal h2 {
+  font-size: 5vh;
+  color: black;
+  line-height: 6.4vh;
+}
+#intro h1,
+#intro h2 {
+  float: left;
+  text-align: left;
+}
+
+.reveal h1 span,
+.reveal h2 span {
+  font-weight: 700;
+}
+
+#index {
+  line-height: 2.16vw;
+  font-size: 1.8vw;
+}
+
+.reveal .circle-wrapper {
+  border-radius: 50%;
+  float: left;
+  width: 100%;
+  height: 17.6vw;
+  display: grid;
+  cursor: pointer;
+  border: 0.4rem solid black;
+  box-sizing: border-box;
+}
+
+.reveal .circle-wrapper:hover {
+  border: 0.4rem solid black;
+}
+
+.reveal .circle-content {
+  text-transform: uppercase;
+  align-self: center;
+}
+
+.circle-wrapper.black,
+.reveal .white:hover {
+  background: black;
+  color: white;
+}
+
+.circle-wrapper.white,
+.circle-wrapper.black:hover {
+  background: white;
+  color: black;
+}
+
+.reveal .squared-box {
+  height: 17.6vw;
+  box-sizing: border-box;
+  border: 0.4rem solid black;
+  width: 100%;
+  margin: 0;
+  display: grid;
+  grid-template-areas: "box-1 box-1 box-2 box-2 box-3 box-3" "box-4 box-5 box-6 box-7 box-8 box-9";
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 1fr;
+}
+
+.reveal.overview .slides section.present,
+.reveal.overview .slides section:hover {
+  outline-offset: 14px;
+  outline-style: dashed ;
+}
+
+.reveal.overview .slides section.present { outline-color: black; }
+.reveal.overview .slides section:hover { outline-color: white; }
+
+.reveal.overview  {
+  background: url(../../img/slides/intro-image.jpg);
+  background-size: 150%;
+}
