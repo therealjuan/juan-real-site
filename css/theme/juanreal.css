@@ -597,7 +597,7 @@
   height: 18vw;
   display: grid;
   cursor: pointer;
-  border: 0.4rem solid black;
+  border: 0.3rem solid black;
   box-sizing: border-box;
 }
 
