@@ -300,7 +300,8 @@
   grid-template-areas: "box-1 box-2 box-3 box-4" "box-5 box-6 box-7 box-8";
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
-  grid-gap: 0;
+  grid-gap: 0.8vh;
+  padding: 0.8vh;
 }
 
  .col1 { grid-area: col1; }
@@ -559,9 +560,16 @@
 .reveal .slides .grid-square .box-third img {
   max-height: 8vh;
   margin: auto;
+  filter: invert(255);
+  background:transparent;
 }
 
-.reveal .slides .grid-square .box-third:hover { background: black; }
+.reveal .slides .grid-square .box-third:hover img {
+  background: transparent;
+}
+
+.reveal .slides .grid-square .box-third { background: black; }
+.reveal .slides .grid-square .canon-colour-bkg img { height: 3vh; }
 
 .reveal .slides .grid-square .snap-colour-bkg:hover { background: #B1263E; }
 .reveal .slides .grid-square .roli-colour-bkg:hover { background: #6E48A1; }
@@ -569,9 +577,8 @@
 .reveal .slides .grid-square .tfl-colour-bkg:hover { background: #23368A; }
 .reveal .slides .grid-square .barclays-colour-bkg:hover { background: #008BC0; }
 .reveal .slides .grid-square .w3w-colour-bkg:hover { background: #BB0D29; }
-.reveal .slides .grid-square .canon-colour-bkg:hover { background: #000000; }
+.reveal .slides .grid-square .canon-colour-bkg:hover { background: #D52A30; }
 .reveal .slides .grid-square .bwin-colour-bkg:hover { background: #261B6B; }
-.reveal .slides .grid-square .box-third:hover img { filter: invert(255); background: transparent; }
 
 .reveal .slides .grid-square a:hover img { box-shadow: none; }
 
