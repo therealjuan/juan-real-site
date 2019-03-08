@@ -286,8 +286,7 @@
   box-sizing: border-box;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 1vmin;
-  grid-row-gap: 1.2vmin;
+  grid-gap: 0;
   height: 100%;
 }
 
