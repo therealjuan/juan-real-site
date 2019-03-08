@@ -337,8 +337,9 @@
 }
 
 .reveal .slides .grid-6 {
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-areas: "col1 col1 col2 col2 col3 col3" "col4 col4 col4 col5 col5 col5";
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas: "col1 col2 col3" "col4  col5 col6";
 }
 
 .reveal .slides .grid-7 {
@@ -379,6 +380,15 @@
   overflow: hidden;
   height:100%;
   width:100%;
+}
+
+#hacking-2 .col2,
+#hacking-2 .col3 {
+  overflow: hidden;
+}
+
+#hacking-2 .video-container {
+  transform: scale(1.2);
 }
 
 .reveal video {

@@ -1,6 +1,6 @@
 var HelpButton = ( function( Reveal ){
 
-	var defMode = 'always';
+	var defMode = 'first';
 
 	function addStylesheet( href ){
 		var link = document.createElement( 'link' );
