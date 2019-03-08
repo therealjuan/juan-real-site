@@ -293,7 +293,7 @@
 .reveal .slides .grid-square {
   height: 18vw;
   box-sizing: border-box;
-  border: 0.4rem solid black;
+  border: 0.3rem solid black;
   width: 100%;
   margin: 0;
   display: grid;
