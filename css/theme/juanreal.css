@@ -361,6 +361,12 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.reveal .slides .grid-11 {
+  grid-template-areas: "col1 col2 col3" "col4 col4 col4";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
 .video-container {
   position: relative;
   overflow: hidden;
@@ -405,17 +411,20 @@
   display: grid;
 }
 
-#passion-1 .col1 { background: #51e2c2; }
-#passion-2 .col3 { background: #ffe91c; }
-#passion-3 .col1 { background: #fe532c; }
+#passion-1 .col4 { background: #51e2c2; }
+#passion-2 .col1 { background: #51e2c2; }
+#passion-3 .col3 { background: #ffe91c; }
+#passion-4 .col1 { background: #fe532c; }
+#passion-5 .col2 { background: #fe532c; }
 
 #snap .logo { width: 34vh; }
 #roli .logo { height: 12vh; }
-#hudl .logo { height: 6vh; margin-top: 2vh;}
+#hudl .logo { height: 6vh; margin-top: 1.4vh;}
 #tfl .logo { height: 10vh; }
 #w3w .logo { height: 5vh; margin-top: 2vh; }
 #bcard .logo { height: 5vh; margin-top: 2vh;}
-#canon .logo { height: 5vh; margin-top: 1vh; }
+#canon .logo { height: 5vh; margin-top: 1.6vh; }
+#bwin .logo { margin-top: 2vh; }
 
 #ustwo-logo { width: 16vh; }
 #possible-logo { width: 24vh; }
@@ -430,6 +439,8 @@
   text-align: left;
   font-family: proxima-nova;
   font-size: 2.6vh;
+  bottom: 22vh;
+  position: absolute;
 }
 
 .reveal .tags,
@@ -454,9 +465,9 @@
 }
 
 .tags li {
-  margin-right: 1vw;
+  margin-right: 0.6vw;
   font-family: proxima-nova, Arial, Helvetica, sans-serif;
-  padding: 0.6rem 1rem;
+  padding: 0.8vh 2.2vh;
   font-size: 2vh;
   float: left;
 }
@@ -468,17 +479,22 @@
 .dark-aqua { background: #00B0AF;}
 .orange { background: #e95420; }
 .red { background: #ED3024; }
-.light-blue { background: #006C96; }
+.dark-red { background: #BE2626; }
+.canon-red { background: #D52A30; }
+.light-blue { background: #009CC0; }
+.dark-blue { background: #006C96; }
 .blue { background: #0081AD; }
-.dark-blue { background: #009CC0; }
 
-#snap .fact { color: #fa6340;}
+
+#snap .fact { color: #ff6500;}
 #roli .fact { color: #62E2FF; }
 #tfl .fact { color: #84CDBB; }
 
 .reveal .fact {
   font-size: 3vh;
   line-height: 4.2vh;
+  margin: 0 0 1vh 0;
+  font-family: "proxima-nova";
 }
 
 .reveal h4 {
@@ -492,8 +508,9 @@
   text-transform: uppercase;
   font-family: 'Proxima Nova';
   font-size: 3vh;
-  opacity: 0.4;
+  opacity: 0.6;
   margin-top: 4vh;
+  margin-bottom: 1vh;
 }
 
 .black-frame {
@@ -506,7 +523,7 @@
 }
 
 .reveal h1 {
-  padding: 3vh;
+  padding: 1vh;
   font-size: 8vh;
   float: left;
 }
