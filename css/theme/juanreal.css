@@ -60,8 +60,9 @@
   * OTHER
   *********************************************/
  .reveal p {
-   /* margin: 20px 0; */
-   line-height: 1.3; }
+   font-size: 3vh;
+   line-height: 1.4;
+  }
 
  /* Ensure certain elements are never larger than the slide itself */
  .reveal img,
@@ -323,6 +324,7 @@
 
 .reveal .slides .grid-3 {
   grid-template-areas: "col1 col2" "col1 col3";
+  grid-template-rows: 1fr 1fr;
 }
 
 .reveal .slides .grid-4 {
@@ -365,6 +367,12 @@
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+.reveal .slides .no-gap {
+  grid-gap: 0;
+}
+
+
 
 .video-container {
   position: relative;
@@ -415,6 +423,7 @@
 #passion-3 .col3 { background: #ffe91c; }
 #passion-4 .col1 { background: #fe532c; }
 #passion-5 .col2 { background: #fe532c; }
+#hacking-2 .col4 { background: #D1618F; }
 
 #snap .logo { width: 34vh; }
 #roli .logo { height: 12vh; }
@@ -493,6 +502,7 @@
   font-size: 3vh;
   line-height: 4.2vh;
   margin: 0 0 1vh 0;
+  width: 100%;
   font-family: "proxima-nova";
 }
 
@@ -531,6 +541,7 @@
   font-size: 4vh;
   color: black;
   line-height: 5.4vh;
+  width: 100%;
 }
 #intro h1,
 #intro h2 {
@@ -626,4 +637,16 @@
 .reveal.overview  {
   background: url(../../img/slides/intro-image.jpg);
   background-size: 150%;
+}
+
+.reveal .button {
+  border: 0.2vh solid white;
+  padding: 2vh 4vh;
+  color:white;
+}
+
+.reveal .button:hover {
+  border: 0.2vh solid white;
+  color:black;
+  background:white;
 }
