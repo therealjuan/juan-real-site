@@ -339,7 +339,7 @@
 .reveal .slides .grid-6 {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-template-areas: "col1 col2 col3" "col4  col5 col6";
+  grid-template-areas: "col1 col2 col3" "col4 col5 col6";
 }
 
 .reveal .slides .grid-7 {
@@ -376,11 +376,17 @@
   grid-template-columns: 1fr;
 }
 
+.reveal .slides .grid-13 {
+  grid-template-areas: "col1 col1 col1 col1 col1" "col2 col3 col4 col5 col6";
+  grid-template-rows: 1fr 0.4fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 1vh;
+  padding: 1vh;
+}
+
 .reveal .slides .no-gap {
   grid-gap: 0;
 }
-
-
 
 .video-container {
   position: relative;
@@ -396,6 +402,15 @@
 
 #hacking-2 .video-container {
   transform: scale(1.2);
+}
+
+#bio .center-aligned p {
+  margin: 1vw;
+  font-size: 2.4vh;
+}
+
+.reveal div p span {
+  font-weight: 700;
 }
 
 .reveal video {
@@ -439,12 +454,12 @@
   margin: 0;
   color: black;
 }
-#hacking-4 .col4 { background: #D1618F; }
+
 
 #snap .logo { width: 34vh; }
 #roli .logo { height: 12vh; }
-#hudl .logo { height: 6vh; margin-top: 1.4vh;}
 #tfl .logo { height: 10vh; }
+#hudl .logo { height: 6vh; margin-top: 1.4vh;}
 #w3w .logo { height: 5vh; margin-top: 2vh; }
 #bcard .logo { height: 5vh; margin-top: 2vh;}
 #canon .logo { height: 5vh; margin-top: 1.6vh; }
@@ -497,6 +512,8 @@
 }
 
 .black { background: black; }
+.white { background: white; }
+.white * { color: black; }
 .light-green { background: #82bfa1; }
 .dark-green { background: #62977d; }
 .light-aqua { background: #84CDBB;}
@@ -509,8 +526,12 @@
 .dark-blue { background: #006C96; }
 .blue { background: #0081AD; }
 .light-orange { background: #D44519;}
+.grey { background: #BBC6CE; }
+.yellow { background: #FFEA03; }
+.light-pink { background: #D1618F; }
 .tags .white { color: black; background: white; }
 .tags .yellow { color: black; background: #F8E612; }
+
 
 #snap .fact { color: #ff6500;}
 #roli .fact { color: #62E2FF; }
@@ -632,7 +653,8 @@
 }
 
 .circle-wrapper.black,
-.reveal .white:hover {
+.reveal .circle-wrapper.white:hover,
+.reveal .circle-wrapper.white:hover .circle-content {
   background: black;
   color: white;
 }
@@ -694,6 +716,9 @@
 }
 
 .reveal .circle-bkg {
-  background:url(/img/slides/circle-white.svg);
-  background-position: 50%;
+  border-radius: 50%;
+  background: white;
+  width: 80vh;
+  height: 80vh;
+  margin: 0 auto;
 }
