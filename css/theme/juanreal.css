@@ -384,6 +384,14 @@
   padding: 1vh;
 }
 
+.reveal .slides .grid-14 {
+  grid-template-areas: "col1" "col2";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
+  grid-gap: 1vh;
+  padding: 1vh;
+}
+
 .reveal .slides .no-gap {
   grid-gap: 0;
 }
@@ -407,6 +415,27 @@
 #bio .center-aligned p {
   margin: 1vw;
   font-size: 2.4vh;
+}
+
+#howto .col1,
+#bio .bio-bkg,
+#bio .facts-bkg {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+#howto .col1 {
+  background-image: url(/img/slides/how-to-bkg.png);
+}
+
+#bio .bio-bkg {
+  background-image: url(/img/slides/bio-half.svg);
+}
+
+#bio .facts-bkg {
+  background-image: url(/img/slides/facts-bkg.svg);
+  /* background-position: top; */
 }
 
 .reveal div p span {
@@ -722,3 +751,4 @@
   height: 80vh;
   margin: 0 auto;
 }
+

@@ -34,6 +34,12 @@
 						</div>
 					</div>
 					</section>
+				<section id="howto" data-background-color="#ffe91c">
+					<div class="grid grid-12">
+						<div class="col1 center-aligned">
+						</div>
+					</div>
+				</section>
 				<section id="index" data-background-color="#ffe91c">
 					<div class="grid grid-9">
 						<div class="col-1 vertical-grid-centering">
@@ -73,25 +79,10 @@
 							</div>
 						</div>
 					</section>
-					<section id="bio" data-background-color="#FFEA03" data-background-image="">
-						<div class="grid grid-13">
-							<div class="col1 center-aligned" style="background-image: url(img/slides/bio.svg);"></div>
-							<div class="col2 center-aligned white">
-								<p><span>1992</span> <br/>Built a warehouse management tool<br/>built in Clipper with 11 years old.</p>
-							</div>
-							<div class="col3 center-aligned white">
-								<p><span>2006</span> <br/>Technical degree in Network & IT<br/> with specialization in<br/>Web development.</p>
-							</div>
-							<div class="col4 center-aligned white">
-								<p><span>2016</span> <br/>Agile Strategy and Roadmap course with Roman Pichler</p>
-							</div>
-							<div class="col5 center-aligned white">
-								<p><span>2018</span> <br/>Specialization course in Mathematics for Machine Learning</p>
-							</div>
-							<div class="col6 center-aligned white">
-								<p><span>2019</span> <br/>Introduction to Machine Learning with Python at Goldsmiths (London)</p>
-							</div>
-						</div>
+					<section id="bio" data-background-color="#EAEAEA" data-background-image="">
+						<div class="grid grid-14">
+							<div class="col1 center-aligned bio-bkg"></div>
+							<div class="col2 center-aligned facts-bkg"></div>
 					</section>
 					<section id="passion-1" data-background-color="#FFEA03">
 						<div class="grid grid-11">
@@ -191,6 +182,20 @@
 						</div>
 					</section>
 					<section id="hacking-4" data-background-color="#fff">
+							<div class="grid grid-2 no-gap">
+								<div class="col1 center-aligned black">
+									<p>How can you recreate BLACK <br/>(analog b&w emulator mobile app) <br/>as a Photoshop plugin? </p>
+								</div>
+								<div class="col2" style="background-image:url(img/slides/black.gif); background-position: 50% 50%;">
+								</div>
+								<div class="col3" style="background-image:url(img/slides/hacking5-1.png);">
+								</div>
+								<div class="col4 center-aligned white">
+									<p>By opening your favourite <br/>Photoshop plugins <br/>and reverse engineering.</p>
+								</div>
+							</div>
+						</section>
+					<section id="hacking-5" data-background-color="#fff">
 						<div class="grid grid-2 no-gap">
 							<div class="col1 center-aligned white">
 								<p>How can you enjoy<br/>your favourite bands<br/>playing live in your hometown? </p>
@@ -672,11 +677,7 @@
 			// More info about config & dependencies:
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/helpbutton/helpbutton.js', async: true }
-				]
-			});
+			Reveal.initialize();
 
 			var videoList = document.getElementsByTagName("video");
 			for(var i=0; i<videoList.length;i++) {

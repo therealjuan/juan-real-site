@@ -603,6 +603,7 @@
 		dom.controlsRight = toArray( document.querySelectorAll( '.navigate-right' ) );
 		dom.controlsUp = toArray( document.querySelectorAll( '.navigate-up' ) );
 		dom.controlsDown = toArray( document.querySelectorAll( '.navigate-down' ) );
+		dom.controlsHome = toArray( document.querySelectorAll( '.navigate-home' ) );
 		dom.controlsPrev = toArray( document.querySelectorAll( '.navigate-prev' ) );
 		dom.controlsNext = toArray( document.querySelectorAll( '.navigate-next' ) );
 
@@ -1333,6 +1334,7 @@
 			dom.controlsLeft.forEach( function( el ) { el.addEventListener( eventName, onNavigateLeftClicked, false ); } );
 			dom.controlsRight.forEach( function( el ) { el.addEventListener( eventName, onNavigateRightClicked, false ); } );
 			dom.controlsUp.forEach( function( el ) { el.addEventListener( eventName, onNavigateUpClicked, false ); } );
+			dom.controlsHome.forEach( function( el ) { el.addEventListener( eventName, onNavigateHomeClicked, false ); } );
 			dom.controlsDown.forEach( function( el ) { el.addEventListener( eventName, onNavigateDownClicked, false ); } );
 			dom.controlsPrev.forEach( function( el ) { el.addEventListener( eventName, onNavigatePrevClicked, false ); } );
 			dom.controlsNext.forEach( function( el ) { el.addEventListener( eventName, onNavigateNextClicked, false ); } );
@@ -1374,6 +1376,7 @@
 			dom.controlsLeft.forEach( function( el ) { el.removeEventListener( eventName, onNavigateLeftClicked, false ); } );
 			dom.controlsRight.forEach( function( el ) { el.removeEventListener( eventName, onNavigateRightClicked, false ); } );
 			dom.controlsUp.forEach( function( el ) { el.removeEventListener( eventName, onNavigateUpClicked, false ); } );
+			dom.controlsHome.forEach( function( el ) { el.removeEventListener( eventName, onNavigateHomeClicked, false ); } );
 			dom.controlsDown.forEach( function( el ) { el.removeEventListener( eventName, onNavigateDownClicked, false ); } );
 			dom.controlsPrev.forEach( function( el ) { el.removeEventListener( eventName, onNavigatePrevClicked, false ); } );
 			dom.controlsNext.forEach( function( el ) { el.removeEventListener( eventName, onNavigateNextClicked, false ); } );
@@ -3182,6 +3185,7 @@
 		// Remove the 'enabled' class from all directions
 		dom.controlsLeft.concat( dom.controlsRight )
 						.concat( dom.controlsUp )
+						.concat( dom.controlsHome )
 						.concat( dom.controlsDown )
 						.concat( dom.controlsPrev )
 						.concat( dom.controlsNext ).forEach( function( node ) {
@@ -4555,6 +4559,10 @@
 
 	}
 
+	function navigateHome() {
+		slide(0);
+	}
+
 	function navigateDown() {
 
 		hasNavigatedDown = true;
@@ -5068,6 +5076,7 @@
 	function onNavigateLeftClicked( event ) { event.preventDefault(); onUserInput(); navigateLeft(); }
 	function onNavigateRightClicked( event ) { event.preventDefault(); onUserInput(); navigateRight(); }
 	function onNavigateUpClicked( event ) { event.preventDefault(); onUserInput(); navigateUp(); }
+	function onNavigateHomeClicked( event ) { event.preventDefault(); onUserInput(); navigateUp(); }
 	function onNavigateDownClicked( event ) { event.preventDefault(); onUserInput(); navigateDown(); }
 	function onNavigatePrevClicked( event ) { event.preventDefault(); onUserInput(); navigatePrev(); }
 	function onNavigateNextClicked( event ) { event.preventDefault(); onUserInput(); navigateNext(); }
