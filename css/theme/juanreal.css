@@ -426,15 +426,15 @@
 }
 
 #howto .col1 {
-  background-image: url(/img/slides/how-to-bkg.png);
+  background-image: url(../../img/slides/how-to-bkg.png);
 }
 
 #bio .bio-bkg {
-  background-image: url(/img/slides/bio-half.svg);
+  background-image: url(../../img/slides/bio-half.svg);
 }
 
 #bio .facts-bkg {
-  background-image: url(/img/slides/facts-bkg.svg);
+  background-image: url(../../img/slides/facts-bkg.svg);
   /* background-position: top; */
 }
 
