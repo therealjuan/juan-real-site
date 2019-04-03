@@ -476,6 +476,17 @@
   width:100%;
 }
 
+.video-container {
+  top: 0;
+  left: 0;
+  z-index: 99;
+  position: absolute;
+}
+
+.content.bottom {
+  z-index: 9999;
+}
+
 #hacking-2 .col2,
 #hacking-2 .col3 {
   overflow: hidden;
@@ -684,6 +695,7 @@
 
 .reveal p.black-frame {
   font-size: 4.4vh;
+  clear: both;
 }
 
 .reveal .border-box-frame {
