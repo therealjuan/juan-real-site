@@ -499,7 +499,7 @@
 }
 
 #howto .col1 {
-  background-image: url(../../img/slides/how-to-bkg.png);
+  background-image: url(../../img/task/how-to-bkg.png);
 }
 
 #bio .bio-bkg {
@@ -682,6 +682,10 @@
   margin: 0 0 3vh 0;
 }
 
+.reveal p.black-frame {
+  font-size: 4.4vh;
+}
+
 .reveal .border-box-frame {
   float: left;
   text-align: left;
@@ -806,7 +810,7 @@
 .reveal.overview .slides section:hover { outline-color: white; }
 
 .reveal.overview  {
-  background: url(../../img/slides/intro-image.jpg);
+  background: url(../../img/intro-image.jpg);
   background-size: 150%;
 }
 
