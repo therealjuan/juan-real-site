@@ -786,6 +786,10 @@
   float: none;
 }
 
+.reveal h1.circle-content {
+  margin: 0;
+}
+
 .circle-wrapper.white,
 .circle-wrapper.black:hover {
   background: white;
@@ -978,12 +982,12 @@
    background: black;
  }
 
- .reveal .dark-orange { background: #C57818; }
- .reveal .reddish {background: #EA5858; }
- .reveal .blueish {background: #BFC9D8; }
- .reveal .light-blueish {background: #00BACA; }
- .reveal .greenish {background: #B0D100; }
- .reveal .dark-blueish { background: #005A88;}
+ .reveal .dark-orange:not(.why-list) { background: #C57818; }
+ .reveal .reddish:not(.why-list) {background: #EA5858; }
+ .reveal .blueish:not(.why-list) {background: #BFC9D8; }
+ .reveal .light-blueish:not(.why-list) {background: #00BACA; }
+ .reveal .greenish:not(.why-list) {background: #B0D100; }
+ .reveal .dark-blueish:not(.why-list) { background: #005A88;}
 
  .technology-cover {
    place-content: flex-start center;
@@ -1024,9 +1028,9 @@
  .reveal .black-box {
   background: black;
   float: left;
-  padding: 0.8vh;
-  margin: 0.3vh;
-  font-size: 1.7vh;
+  padding: 0.6vh;
+  margin: 0.2vh;
+  font-size: 1.5vh;
  }
 
  .reveal span.black-box { float: none; }
@@ -1060,9 +1064,16 @@
 .reveal .industry-overlay div {
   display: table-cell;
   vertical-align: middle;
-  font-size: 2vh;
+  font-size: 1.6vh;
   line-height: 1.8;
   padding: 2vh;
+}
+
+.reveal .industry-overlay ul {
+  margin-left: -3vh;
+}
+.reveal .industry-overlay li {
+  margin-bottom: 0.2vh;
 }
 
  .reveal .bkg-box:hover .industry-overlay {
