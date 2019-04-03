@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1920px" height="1080px" viewBox="0 0 1920 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>bkg-solution-10</title>
+    <desc>Created with Sketch.</desc>
+    <g id="bkg-solution-10" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#ECEEF1" x="0" y="0" width="1920" height="1080"></rect>
+        <g id="Feature-Epic" transform="translate(175.000000, 182.000000)">
+            <g id="Group-2" transform="translate(0.000000, 0.000000)">
+                <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#000000" x="1.15200005" y="1.15200005" width="236.843533" height="40.1760016"></rect>
+                <text id="Afamefuna" font-family="LibreBaskerville-Regular, Libre Baskerville" font-size="20.7360008" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="75.665285" y="28.0367571">Account</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Feature-item-Copy-52" transform="translate(175.000000, 236.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#F8E71C" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="50.5055628" y="27.5200005">Create an account</tspan>
+            </text>
+        </g>
+        <g id="Feature-item-Copy-52" transform="translate(175.000000, 290.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#F8E71C" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="98.8895647" y="27.5200005">Login</tspan>
+            </text>
+        </g>
+        <g id="Feature-item-Copy-52" transform="translate(175.000000, 344.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#F8E71C" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="42.8332425" y="27.5200005">Recover my account</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(175.000000, 398.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="46.2114827" y="27.5200005">Give shared access</tspan>
+            </text>
+        </g>
+        <g id="Feature-Epic" transform="translate(424.000000, 614.000000)">
+            <g id="Group-2" transform="translate(0.000000, 0.000000)">
+                <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#000000" x="1.15200005" y="1.15200005" width="236.843533" height="40.1760016"></rect>
+                <text id="Afamefuna" font-family="LibreBaskerville-Regular, Libre Baskerville" font-size="20.7360008" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="71.5388208" y="28.0367571">Referrals</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Feature-item-Copy-49" transform="translate(424.000000, 668.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#BEDF27" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="68.7791635" y="27.5200005">Refer a friend</tspan>
+            </text>
+        </g>
+        <g id="Feature-item-Copy-49" transform="translate(424.000000, 722.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#BEDF27" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="44.5526026" y="27.5200005">View referral details</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(424.000000, 830.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="20.8012416" y="27.5200005">Referral network overview</tspan>
+            </text>
+        </g>
+        <g id="Feature-item-Copy-49" transform="translate(424.000000, 776.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#BEDF27" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="45.3820426" y="27.5200005">Referral information</tspan>
+            </text>
+        </g>
+        <g id="Feature-Epic" transform="translate(674.000000, 614.000000)">
+            <g id="Group-2" transform="translate(0.000000, 0.000000)">
+                <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#000000" x="1.15200005" y="1.15200005" width="236.843533" height="40.1760016"></rect>
+                <text id="Afamefuna" font-family="LibreBaskerville-Regular, Libre Baskerville" font-size="20.7360008" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="52.2128681" y="28.0367571">Send money</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Feature-item-Copy-52" transform="translate(674.000000, 668.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#F8E71C" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="17.5526015" y="27.5200005">Transfer &amp; payments (local)</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(674.000000, 722.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="17.5526015" y="27.5200005">Transfer &amp; payments (local)</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(1507.000000, 398.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="60.5711632" y="27.5200005">Sending money</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(674.000000, 776.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="88.5129243" y="27.5200005">Senders</tspan>
+            </text>
+        </g>
+        <g id="Feature-Epic" transform="translate(925.000000, 182.000000)">
+            <g id="Group-2" transform="translate(0.000000, 0.000000)">
+                <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#000000" x="1.15200005" y="1.15200005" width="236.843533" height="40.1760016"></rect>
+                <text id="Afamefuna" font-family="LibreBaskerville-Regular, Libre Baskerville" font-size="20.7360008" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="35.2197154" y="28.0367571">Help &amp; Support</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Feature-item-Copy-52" transform="translate(925.000000, 236.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#F8E71C" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="35.6879622" y="27.5200005">24/7 Live chat support</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(925.000000, 290.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="74.4210838" y="27.5200005">Help search</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(925.000000, 344.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="16.6799615" y="27.5200005">Appointment booking (F2F)</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(925.000000, 398.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="102.855325" y="27.5200005">FAQ</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(925.000000, 452.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="29.985562" y="27.5200005">Find the nearest branch</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(925.000000, 506.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="45.7794826" y="27.5200005">How to use the app</tspan>
+            </text>
+        </g>
+        <g id="Feature-Epic" transform="translate(924.000000, 614.000000)">
+            <g id="Group-2" transform="translate(0.000000, 0.000000)">
+                <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#000000" x="1.15200005" y="1.15200005" width="236.843533" height="40.1760016"></rect>
+                <text id="Afamefuna" font-family="LibreBaskerville-Regular, Libre Baskerville" font-size="20.7360008" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="77.5107891" y="28.0367571">Settings</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Feature-Epic" transform="translate(1177.000000, 182.000000)">
+            <g id="Group-2" transform="translate(0.000000, 0.000000)">
+                <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#000000" x="1.15200005" y="1.15200005" width="565.671392" height="40.1760016"></rect>
+                <text id="Afamefuna" font-family="LibreBaskerville-Regular, Libre Baskerville" font-size="20.7360008" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="105.481833" y="28.0367571">Education &amp; Financial knowledge</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Feature-item-Copy-49" transform="translate(1177.000000, 290.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#BEDF27" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="67.7855635" y="27.5200005">Financial tips*</tspan>
+            </text>
+        </g>
+        <g id="Feature-item-Copy-49" transform="translate(1177.000000, 344.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#BEDF27" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="65.9798034" y="27.5200005">Regular tasks*</tspan>
+            </text>
+        </g>
+        <g id="Feature-item-Copy-49" transform="translate(1217.000000, 398.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#BEDF27" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="58.5062031" y="27.5200005">Tasks overview*</tspan>
+            </text>
+        </g>
+        <g id="Feature-item-Copy-49" transform="translate(1217.000000, 452.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#BEDF27" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="58.6962831" y="27.5200005">Tasks reminder*</tspan>
+            </text>
+        </g>
+        <g id="Feature-item-Copy-49" transform="translate(1217.000000, 506.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#BEDF27" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="46.9804427" y="27.5200005">Task management*</tspan>
+            </text>
+        </g>
+        <g id="Feature-item-Copy-49" transform="translate(1177.000000, 560.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#BEDF27" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="55.871003" y="27.5200005">Financial games*</tspan>
+            </text>
+        </g>
+        <g id="Feature-item-Copy-49" transform="translate(1217.000000, 614.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#BEDF27" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="58.0223631" y="27.5200005">Game selection*</tspan>
+            </text>
+        </g>
+        <g id="Feature-item-Copy-49" transform="translate(1217.000000, 668.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#BEDF27" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="76.4860439" y="27.5200005">Game play*</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(1217.000000, 722.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="75.6220438" y="27.5200005">Scoreboard</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(1467.000000, 236.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="57.4694031" y="27.5200005">Financial Guides</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(1177.000000, 236.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="62.4546833" y="27.5200005">Real life stories</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(1507.000000, 290.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="57.2102031" y="27.5200005">Risk implications</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(1507.000000, 344.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="97.2220447" y="27.5200005">Loans</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(1507.000000, 452.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="43.5935625" y="27.5200005">Payments explained</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(1507.000000, 506.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="66.3772435" y="27.5200005">Saving money</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(1507.000000, 560.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="87.1823643" y="27.5200005">Glossary</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(1507.000000, 614.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="41.9778825" y="27.5200005">Additional resources</tspan>
+            </text>
+        </g>
+        <g id="Feature-item-Copy-52" transform="translate(924.000000, 668.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#F8E71C" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="42.1593225" y="27.5200005">Notifications &amp; alerts</tspan>
+            </text>
+        </g>
+        <g id="Feature-item-Copy-52" transform="translate(924.000000, 722.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#F8E71C" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="56.7695631" y="27.5200005">App permissions</tspan>
+            </text>
+        </g>
+        <g id="Feature-item-Copy-52" transform="translate(924.000000, 776.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#F8E71C" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="56.7868431" y="27.5200005">Account settings</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(924.000000, 830.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="58.0310031" y="27.5200005">General settings</tspan>
+            </text>
+        </g>
+        <g id="Feature-Epic" transform="translate(425.000000, 182.000000)">
+            <g id="Group-2" transform="translate(0.000000, 0.000000)">
+                <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#000000" x="1.15200005" y="1.15200005" width="236.843533" height="40.1760016"></rect>
+                <text id="Afamefuna" font-family="LibreBaskerville-Regular, Libre Baskerville" font-size="20.7360008" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="54.4834602" y="28.0367571">Onboarding</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Feature-Epic" transform="translate(675.000000, 182.000000)">
+            <g id="Group-2" transform="translate(0.000000, 0.000000)">
+                <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#000000" x="1.15200005" y="1.15200005" width="236.843533" height="40.1760016"></rect>
+                <text id="Afamefuna" font-family="LibreBaskerville-Regular, Libre Baskerville" font-size="20.7360008" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="61.5751724" y="28.0367571">Dashboard</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Feature-item-Copy-52" transform="translate(425.000000, 236.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#F8E71C" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="63.5692433" y="27.5200005">Getting started</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(425.000000, 290.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="40.4745224" y="27.5200005">What's on the screen</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(425.000000, 344.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="87.4242843" y="27.5200005">Tutorials</tspan>
+            </text>
+        </g>
+        <g id="Feature-item-Copy-52" transform="translate(675.000000, 236.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#F8E71C" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="49.9094028" y="27.5200005">Financial overview</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(675.000000, 290.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="40.8806024" y="27.5200005">Shared account view</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(675.000000, 344.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="32.2578821" y="27.5200005">Shared account access</tspan>
+            </text>
+        </g>
+        <text id="Initial-feature-set" font-family="LibreBaskerville-Regular, Libre Baskerville" font-size="33.6" font-weight="normal" fill="#1A1919">
+            <tspan x="174" y="123">Initial feature set for potential solution</tspan>
+        </text>
+        <text id="*-Some-features-coul" font-family="ProximaNova-Regular, Proxima Nova" font-size="18" font-weight="normal" fill="#1A1919">
+            <tspan x="175" y="1011">* Some features could even be scaled down further on initial launch</tspan>
+        </text>
+        <g id="Feature-Epic" transform="translate(174.000000, 614.000000)">
+            <g id="Group-2" transform="translate(0.000000, 0.000000)">
+                <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#000000" x="1.15200005" y="1.15200005" width="236.843533" height="40.1760016"></rect>
+                <text id="Afamefuna" font-family="LibreBaskerville-Regular, Libre Baskerville" font-size="20.7360008" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="87.6610615" y="28.0367571">Loans</tspan>
+                </text>
+            </g>
+        </g>
+        <g id="Feature-item-Copy-52" transform="translate(174.000000, 668.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#F8E71C" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="42.2975625" y="27.5200005">Request a new loan*</tspan>
+            </text>
+        </g>
+        <g id="Feature-item-Copy-52" transform="translate(174.000000, 722.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#F8E71C" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="44.8118026" y="27.5200005">Eligibility calculator*</tspan>
+            </text>
+        </g>
+        <g id="Feature-item-Copy-52" transform="translate(174.000000, 776.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#F8E71C" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="78.6201239" y="27.5200005">View loans</tspan>
+            </text>
+        </g>
+        <g id="Feature-item-Copy-52" transform="translate(174.000000, 830.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#F8E71C" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="40.3881224" y="27.5200005">Repayment overview</tspan>
+            </text>
+        </g>
+        <g id="Feature-item" transform="translate(174.000000, 886.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="237.500091" height="40.1760016"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal" fill="#000000">
+                <tspan x="33.9858822" y="27.5200005">Loan tools &amp; calculator</tspan>
+            </text>
+        </g>
+        <text id="Candidate-features-f" font-family="ProximaNova-Regular, Proxima Nova" font-size="18" font-weight="normal" fill="#1A1919">
+            <tspan x="1449" y="889">Candidate features for initial launch</tspan>
+        </text>
+        <text id="Epic-feature" font-family="ProximaNova-Regular, Proxima Nova" font-size="18" font-weight="normal" fill="#1A1919">
+            <tspan x="1449" y="923">Epic feature</tspan>
+        </text>
+        <text id="Feature" font-family="ProximaNova-Regular, Proxima Nova" font-size="18" font-weight="normal" fill="#1A1919">
+            <tspan x="1449" y="957">Feature</tspan>
+        </text>
+        <g id="Feature-item-Copy-52" transform="translate(1364.000000, 872.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#F8E71C" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="64.6413087" height="19.9474294"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal"></text>
+        </g>
+        <text id="Key-features-for-ini" font-family="ProximaNova-Regular, Proxima Nova" font-size="18" font-weight="normal" fill="#1A1919">
+            <tspan x="1449" y="855">Key features for initial launch</tspan>
+        </text>
+        <g id="Feature-item-Copy-49" transform="translate(1364.000000, 838.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#BEDF27" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="64.6413087" height="19.9474294"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal"></text>
+        </g>
+        <g id="Feature-Epic" transform="translate(1364.000000, 906.000000)">
+            <g id="Group-2" transform="translate(0.000000, 0.000000)">
+                <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#000000" x="1.15200005" y="1.15200005" width="64.4580197" height="19.9474294"></rect>
+                <text id="Afamefuna" font-family="LibreBaskerville-Regular, Libre Baskerville" font-size="20.7360008" font-weight="normal"></text>
+            </g>
+        </g>
+        <g id="Feature-item" transform="translate(1364.000000, 940.000000)">
+            <rect id="Rectangle" stroke="#000000" stroke-width="2.30400009" fill="#FFFFFF" fill-rule="evenodd" x="1.15200005" y="1.15200005" width="64.6413087" height="19.9474294"></rect>
+            <text id="Breadwinner-survivor" font-family="ProximaNova-Regular, Proxima Nova" font-size="17.2800007" font-weight="normal"></text>
+        </g>
+    </g>
+</svg>
