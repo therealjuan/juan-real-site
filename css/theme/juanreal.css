@@ -369,6 +369,10 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.reveal .slides .grid-10 .content {
+  padding: 18vh 5vh 5vh;
+}
+
 .reveal .slides .grid-11 {
   grid-template-areas: "col1 col2 col3" "col4 col4 col4";
   grid-template-rows: 1fr 1fr;
@@ -401,6 +405,12 @@
   grid-template-areas: "col1";
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
+}
+
+.reveal .slides .grid-15 .col1 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 
 .reveal .slides .grid-16 {
@@ -696,6 +706,14 @@
 .reveal p.black-frame {
   font-size: 4.4vh;
   clear: both;
+}
+
+.reveal .floating-cube {
+  position: absolute;
+  right: 36vh;
+  top: 36vh;
+  width: 27vh;
+  z-index: 99999;
 }
 
 .reveal .border-box-frame {
