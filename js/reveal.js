@@ -582,7 +582,8 @@
 			'<button class="navigate-left" aria-label="previous slide"><div class="controls-arrow"></div></button>' +
 			'<button class="navigate-right" aria-label="next slide"><div class="controls-arrow"></div></button>' +
 			'<button class="navigate-up" aria-label="above slide"><div class="controls-arrow"></div></button>' +
-			'<button class="navigate-down" aria-label="below slide"><div class="controls-arrow"></div></button>' );
+			'<button class="navigate-down" aria-label="below slide"><div class="controls-arrow"></div></button>' +
+			'<button class="navigate-home" aria-label="home slide"><div class="controls-arrow"></div></button>');
 
 		// Slide number
 		dom.slideNumber = createSingletonNode( dom.wrapper, 'div', 'slide-number', '' );
@@ -3201,6 +3202,7 @@
 		if( routes.right ) dom.controlsRight.forEach( function( el ) { el.classList.add( 'enabled' ); el.removeAttribute( 'disabled' ); } );
 		if( routes.up ) dom.controlsUp.forEach( function( el ) { el.classList.add( 'enabled' ); el.removeAttribute( 'disabled' ); } );
 		if( routes.down ) dom.controlsDown.forEach( function( el ) { el.classList.add( 'enabled' ); el.removeAttribute( 'disabled' ); } );
+		if( ( routes.down && routes.up ) || routes.up) dom.controlsHome.forEach( function( el ) { el.classList.add( 'enabled' ); el.removeAttribute( 'disabled' ); } );
 
 		// Prev/next buttons
 		if( routes.left || routes.up ) dom.controlsPrev.forEach( function( el ) { el.classList.add( 'enabled' ); el.removeAttribute( 'disabled' ); } );
@@ -4560,7 +4562,8 @@
 	}
 
 	function navigateHome() {
-		slide(0);
+		Reveal.slide(Reveal.getIndices()["h"], 0);
+		slide(2);
 	}
 
 	function navigateDown() {
@@ -5076,7 +5079,7 @@
 	function onNavigateLeftClicked( event ) { event.preventDefault(); onUserInput(); navigateLeft(); }
 	function onNavigateRightClicked( event ) { event.preventDefault(); onUserInput(); navigateRight(); }
 	function onNavigateUpClicked( event ) { event.preventDefault(); onUserInput(); navigateUp(); }
-	function onNavigateHomeClicked( event ) { event.preventDefault(); onUserInput(); navigateUp(); }
+	function onNavigateHomeClicked( event ) { event.preventDefault(); onUserInput(); navigateHome(); }
 	function onNavigateDownClicked( event ) { event.preventDefault(); onUserInput(); navigateDown(); }
 	function onNavigatePrevClicked( event ) { event.preventDefault(); onUserInput(); navigatePrev(); }
 	function onNavigateNextClicked( event ) { event.preventDefault(); onUserInput(); navigateNext(); }
@@ -5407,6 +5410,7 @@
 		navigateRight: navigateRight,
 		navigateUp: navigateUp,
 		navigateDown: navigateDown,
+		navigateHome: navigateHome,
 		navigatePrev: navigatePrev,
 		navigateNext: navigateNext,
 
