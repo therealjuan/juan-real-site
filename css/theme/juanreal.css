@@ -427,12 +427,12 @@
   width:100%;
 }
 
-#hacking-2 .col2,
-#hacking-2 .col3 {
+#hacking-a-what3words-prototype .col2,
+#hacking-a-what3words-prototype .col3 {
   overflow: hidden;
 }
 
-#hacking-2 .video-container {
+#hacking-a-what3words-prototype .video-container {
   transform: scale(1.2);
 }
 
@@ -441,7 +441,7 @@
   font-size: 2.4vh;
 }
 
-#howto .col1,
+#how-to-use-this-site .col1,
 #bio .bio-bkg,
 #bio .facts-bkg {
   background-size: contain;
@@ -449,7 +449,7 @@
   background-position: 50%;
 }
 
-#howto .col1 {
+#how-to-use-this-site .col1 {
   background-image: url(../../img/slides/how-to-bkg.png);
 }
 
@@ -509,14 +509,14 @@
 }
 
 
-#snap .logo { width: 34vh; }
-#roli .logo { height: 12vh; }
-#tfl .logo { height: 10vh; }
-#hudl .logo { height: 6vh; margin-top: 1.4vh;}
-#w3w .logo { height: 5vh; margin-top: 2vh; }
-#bcard .logo { height: 5vh; margin-top: 2vh;}
-#canon .logo { height: 5vh; margin-top: 1.6vh; }
-#bwin .logo { margin-top: 2vh; }
+#snapcraft .logo { width: 34vh; }
+#roli-blocks-and-roli-play .logo { height: 12vh; }
+#tfl-accelerate .logo { height: 10vh; }
+#tesco-hudl2-and-child-safety-app .logo { height: 6vh; margin-top: 1.4vh;}
+#what3words .logo { height: 5vh; margin-top: 2vh; }
+#barclaycard .logo { height: 5vh; margin-top: 2vh;}
+#canon-eos-explore .logo { height: 5vh; margin-top: 1.6vh; }
+#bwinparty .logo { margin-top: 2vh; }
 
 #ustwo-logo { width: 16vh; }
 #possible-logo { width: 24vh; }
@@ -600,9 +600,9 @@
   color: white;
 }
 
-#snap .fact { color: #ff6500;}
-#roli .fact { color: #62E2FF; }
-#tfl .fact { color: #84CDBB; }
+#snapcarft .fact { color: #ff6500;}
+#roli-blocks-and-roli-play .fact { color: #62E2FF; }
+#tfl-accelerate .fact { color: #84CDBB; }
 
 .reveal .fact {
   font-size: 3vh;
@@ -650,8 +650,8 @@
   line-height: 5.4vh;
   width: 100%;
 }
-#intro h1,
-#intro h2 {
+#introduction h1,
+#introduction h2 {
   float: left;
   text-align: left;
 }
@@ -661,7 +661,7 @@
   font-weight: 700;
 }
 
-#index {
+#outline {
   line-height: 2.16vw;
   font-size: 1.8vw;
 }
