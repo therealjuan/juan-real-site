@@ -583,7 +583,7 @@
 			'<button class="navigate-right" aria-label="next slide"><div class="controls-arrow"></div></button>' +
 			'<button class="navigate-up" aria-label="above slide"><div class="controls-arrow"></div></button>' +
 			'<button class="navigate-down" aria-label="below slide"><div class="controls-arrow"></div></button>' +
-			'<button class="navigate-home" aria-label="home slide"><div class="controls-arrow"></div></button>');
+			'<button class="navigate-home" aria-label="home slide"><svg width="30" height="30" xmlns="http://www.w3.org/2000/svg"><path d="M29.441 10.552L15.348.263c-.419-.35-.279-.35-.698 0L.557 10.553c-1.105.934-.457 2.377.99 2.377h1.214v14.342C2.761 28.792 3.942 30 5.43 30h5.36c.648 0 1.144-.507 1.144-1.17v-8.184c0-.662.495-1.169 1.143-1.169h3.847c.647 0 1.143.507 1.143 1.17v8.184c0 .662.495 1.169 1.143 1.169h5.399c1.486 0 2.667-1.208 2.667-2.728V12.93h1.214c1.41 0 2.057-1.443.952-2.378z" fill="#000" fill-rule="nonzero"/></svg></button>');
 
 		// Slide number
 		dom.slideNumber = createSingletonNode( dom.wrapper, 'div', 'slide-number', '' );

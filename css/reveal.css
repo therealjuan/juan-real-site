@@ -283,6 +283,9 @@ body {
       transform: rotate(-90deg); }
     .reveal .controls .navigate-down.highlight {
       animation: bounce-down 2s 50 both ease-out; }
+  .reveal .controls .navigate-home {
+    top: -2px;
+    left: -20px; }
   .reveal .controls[data-controls-back-arrows="faded"] .navigate-left.enabled,
   .reveal .controls[data-controls-back-arrows="faded"] .navigate-up.enabled {
     opacity: 0.3; }

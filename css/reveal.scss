@@ -394,6 +394,11 @@ $controlsArrowAngleActive: 36deg;
 		}
 	}
 
+	.navigate-home {
+		top: -2px;
+		left: -20px;
+	}
+
 	// Back arrow style: "faded":
 	// Deemphasize backwards navigation arrows in favor of drawing
 	// attention to forwards navigation
@@ -513,6 +518,7 @@ $controlsArrowAngleActive: 36deg;
 			left: 50%;
 			margin-left: -$controlArrowSize/2;
 		}
+
 	}
 
 }
