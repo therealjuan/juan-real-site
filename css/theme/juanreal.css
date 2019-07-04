@@ -427,6 +427,8 @@
   width:100%;
 }
 
+.reveal.has-dark-background .navigate-home svg path { fill: #fff; }
+
 #hacking-a-what3words-prototype .col2,
 #hacking-a-what3words-prototype .col3 {
   overflow: hidden;
