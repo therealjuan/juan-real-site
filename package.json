@@ -1,9 +1,8 @@
 {
-  "name": "reveal.js",
-  "version": "3.7.0",
-  "description": "The HTML Presentation Framework",
-  "homepage": "http://revealjs.com",
-  "subdomain": "revealjs",
+  "name": "juan-real-com",
+  "version": "1.1",
+  "description": "Juan Real portfolio based on reveal.js presentation framework",
+  "homepage": "http://juanreal.com",
   "main": "js/reveal.js",
   "scripts": {
     "test": "grunt test",
@@ -17,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/therealjuan/reveal.js.git"
+    "url": "git://github.com/therealjuan/juan-real-com.git"
   },
   "engines": {
     "node": ">=4.0.0"
