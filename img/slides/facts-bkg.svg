@@ -1,65 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1900px" height="255px" viewBox="0 0 1900 255" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
-    <title>Group 4</title>
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>facts-bkg</title>
     <desc>Created with Sketch.</desc>
-    <g id="Projects" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Bio" transform="translate(-10.000000, -697.000000)">
-            <g id="Group-4" transform="translate(10.000000, 697.000000)">
-                <g id="Group-2">
-                    <rect id="passion1" fill="#FFFFFF" x="0" y="0" width="372" height="255"></rect>
-                    <text id="First-software-sold" font-family="Baskerville-Bold, Baskerville" font-size="26" font-weight="bold" fill="#000000">
-                        <tspan x="32" y="88">First software sold </tspan>
-                        <tspan x="32" y="118">with 11 years old</tspan>
-                        <tspan x="32" y="148" font-family="Baskerville" font-weight="normal">a warehouse management </tspan>
-                        <tspan x="32" y="177" font-family="Baskerville" font-weight="normal">tool developed in Clipper</tspan>
-                    </text>
-                    <rect id="passion1-copy" fill="#FFFFFF" x="382" y="0" width="372" height="255"></rect>
-                    <text id="Technical-degree-in" font-family="Baskerville-Bold, Baskerville" font-size="26" font-weight="bold" fill="#000000">
-                        <tspan x="413" y="88">Technical degree in </tspan>
-                        <tspan x="413" y="118">Network &amp; IT</tspan>
-                        <tspan x="581.733398" y="118" font-family="Baskerville" font-weight="normal"></tspan>
-                        <tspan x="413" y="148" font-family="Baskerville" font-weight="normal">Web development </tspan>
-                        <tspan x="413" y="177" font-family="Baskerville" font-weight="normal">specialisation</tspan>
-                    </text>
-                    <rect id="passion1-copy-2" fill="#FFFFFF" x="764" y="0" width="372" height="255"></rect>
-                    <text id="Agile-Strategy-and-R" font-family="Baskerville-Bold, Baskerville" font-size="26" font-weight="bold" fill="#000000">
-                        <tspan x="792" y="88">Agile Strategy and </tspan>
-                        <tspan x="792" y="118">Roadmap</tspan>
-                        <tspan x="912.262695" y="118" font-family="Baskerville" font-weight="normal"></tspan>
-                        <tspan x="792" y="148" font-family="Baskerville" font-weight="normal">with Roman Pichler</tspan>
-                    </text>
-                    <rect id="passion1-copy-3" fill="#FFFFFF" x="1146" y="0" width="372" height="255"></rect>
-                    <text id="Mathematics-for-Mach" font-family="Baskerville-Bold, Baskerville" font-size="26" font-weight="bold" fill="#000000">
-                        <tspan x="1177" y="88">Mathematics for </tspan>
-                        <tspan x="1177" y="118">Machine Learning</tspan>
-                        <tspan x="1401.5166" y="118" font-family="Baskerville" font-weight="normal"></tspan>
-                        <tspan x="1177" y="148" font-family="Baskerville" font-weight="normal">coursera.org</tspan>
-                    </text>
-                    <rect id="passion1-copy-4" fill="#FFFFFF" x="1528" y="0" width="372" height="255"></rect>
-                    <text id="Introduction-to-Mach" font-family="Baskerville-Bold, Baskerville" font-size="26" font-weight="bold" fill="#000000">
-                        <tspan x="1558" y="88">Introduction to Machine </tspan>
-                        <tspan x="1558" y="118">Learning with Python</tspan>
-                        <tspan x="1822.31641" y="118" font-family="Baskerville" font-weight="normal"></tspan>
-                        <tspan x="1558" y="148" font-family="Baskerville" font-weight="normal">Goldsmiths (London)</tspan>
-                    </text>
-                    <text id="1992" opacity="0.600000024" font-family="ProximaNova-Regular, Proxima Nova" font-size="22" font-weight="normal" fill="#000000">
-                        <tspan x="32" y="42">1992</tspan>
-                    </text>
-                    <text id="2006" opacity="0.600000024" font-family="ProximaNova-Regular, Proxima Nova" font-size="22" font-weight="normal" fill="#000000">
-                        <tspan x="413" y="42">2006</tspan>
-                    </text>
-                    <text id="2016" opacity="0.600000024" font-family="ProximaNova-Regular, Proxima Nova" font-size="22" font-weight="normal" fill="#000000">
-                        <tspan x="792" y="42">2016</tspan>
-                    </text>
-                    <text id="2018" opacity="0.600000024" font-family="ProximaNova-Regular, Proxima Nova" font-size="22" font-weight="normal" fill="#000000">
-                        <tspan x="1177" y="42">2018</tspan>
-                    </text>
-                    <text id="2019" opacity="0.600000024" font-family="ProximaNova-Regular, Proxima Nova" font-size="22" font-weight="normal" fill="#000000">
-                        <tspan x="1558" y="42">2019</tspan>
-                    </text>
-                </g>
-            </g>
+    <g id="facts-bkg" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5">
+            <rect id="passion1" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="300" height="255"></rect>
+            <text id="First-software-sold" fill="#000000" font-family="Baskerville-Bold, Baskerville" font-size="26" font-weight="bold">
+                <tspan x="24" y="88">First software sold</tspan>
+                <tspan x="24" y="118">with 11 years old</tspan>
+            </text>
+            <text id="Software-for-managin" fill="#000000" font-family="Baskerville" font-size="26" font-weight="normal">
+                <tspan x="24" y="148">Software for managing </tspan>
+                <tspan x="24" y="177">warehouses developed </tspan>
+                <tspan x="24" y="206">in Clipper</tspan>
+            </text>
+            <text id="1992" fill="#000000" font-family="ProximaNova-Regular, Proxima Nova" font-size="22" font-weight="normal">
+                <tspan x="24" y="42">1992</tspan>
+            </text>
+        </g>
+        <g id="Group-4" transform="translate(320.000000, 0.000000)">
+            <rect id="passion1-copy" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="300" height="255"></rect>
+            <text id="Technical-degree-in" fill="#000000" font-family="Baskerville-Bold, Baskerville" font-size="26" font-weight="bold">
+                <tspan x="24" y="88">Technical degree in </tspan>
+                <tspan x="24" y="118">Network &amp; IT</tspan>
+            </text>
+            <text id="Web-development-spec" fill="#000000" font-family="Baskerville" font-size="26" font-weight="normal">
+                <tspan x="24" y="148">Web development </tspan>
+                <tspan x="24" y="177">specialisation</tspan>
+            </text>
+            <text id="2006" fill="#000000" font-family="ProximaNova-Regular, Proxima Nova" font-size="22" font-weight="normal">
+                <tspan x="24" y="42">2006</tspan>
+            </text>
+        </g>
+        <g id="Group" transform="translate(640.000000, 0.000000)">
+            <rect id="passion1-copy-2" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="300" height="255"></rect>
+            <text id="Agile-Strategy-and-R" fill="#000000" font-family="Baskerville-Bold, Baskerville" font-size="26" font-weight="bold">
+                <tspan x="24" y="88">Agile Strategy and </tspan>
+                <tspan x="24" y="118">Roadmap</tspan>
+            </text>
+            <text id="with-Roman-Pichler" fill="#000000" font-family="Baskerville" font-size="26" font-weight="normal">
+                <tspan x="24" y="148">with Roman Pichler</tspan>
+            </text>
+            <text id="2016" fill="#000000" font-family="ProximaNova-Regular, Proxima Nova" font-size="22" font-weight="normal">
+                <tspan x="24" y="42">2016</tspan>
+            </text>
+        </g>
+        <g id="Group-2" transform="translate(960.000000, 0.000000)">
+            <rect id="passion1-copy-3" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="300" height="255"></rect>
+            <text id="Mathematics-for-Mach" fill="#000000" font-family="Baskerville-Bold, Baskerville" font-size="26" font-weight="bold">
+                <tspan x="24" y="88">Mathematics for </tspan>
+                <tspan x="24" y="118">Machine Learning</tspan>
+            </text>
+            <text id="coursera.org" fill="#000000" font-family="Baskerville" font-size="26" font-weight="normal">
+                <tspan x="24" y="148">coursera.org</tspan>
+            </text>
+            <text id="2018" fill="#000000" font-family="ProximaNova-Regular, Proxima Nova" font-size="22" font-weight="normal">
+                <tspan x="24" y="42">2018</tspan>
+            </text>
+        </g>
+        <g id="Group-3" transform="translate(1280.000000, 0.000000)">
+            <rect id="passion1-copy-4" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="300" height="255"></rect>
+            <text id="Introduction-to-Mach" fill="#000000" font-family="Baskerville-Bold, Baskerville" font-size="26" font-weight="bold">
+                <tspan x="24" y="88">Introduction to </tspan>
+                <tspan x="24" y="118">Machine Learning </tspan>
+                <tspan x="24" y="148">with Python</tspan>
+            </text>
+            <text id="Goldsmiths-(London)" fill="#000000" font-family="Baskerville" font-size="26" font-weight="normal">
+                <tspan x="24" y="178">Goldsmiths (London)</tspan>
+            </text>
+            <text id="2019" fill="#000000" font-family="ProximaNova-Regular, Proxima Nova" font-size="22" font-weight="normal">
+                <tspan x="24" y="42">2019</tspan>
+            </text>
+        </g>
+        <g id="Group-3-Copy" transform="translate(1600.000000, 0.000000)">
+            <rect id="passion1-copy-4" fill="#FFFFFF" fill-rule="nonzero" x="0" y="0" width="300" height="255"></rect>
+            <text id="Level-5-Diploma-in-A" fill="#000000" font-family="Baskerville-Bold, Baskerville" font-size="26" font-weight="bold">
+                <tspan x="24" y="88">Level 5 Diploma in </tspan>
+                <tspan x="24" y="118">Applied Financial </tspan>
+                <tspan x="24" y="148">Trading</tspan>
+            </text>
+            <text id="London-Academy-of-Tr" fill="#000000" font-family="Baskerville" font-size="26" font-weight="normal">
+                <tspan x="24" y="178">London Academy of </tspan>
+                <tspan x="24" y="207">Trading</tspan>
+            </text>
+            <text id="2020" fill="#000000" font-family="ProximaNova-Regular, Proxima Nova" font-size="22" font-weight="normal">
+                <tspan x="24" y="42">2020</tspan>
+            </text>
         </g>
     </g>
 </svg>

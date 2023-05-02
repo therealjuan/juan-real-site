@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="202px" height="232px" viewBox="0 0 202 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.1 (72631) - https://sketchapp.com -->
+    <title>Cube-0</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-85.000000, -113.000000)">
+            <g id="Cube-0" transform="translate(85.000000, 113.000000)">
+                <polygon id="Combined-Shape" fill="#00C4EA" transform="translate(152.000000, 144.535156) scale(-1, 1) translate(-152.000000, -144.535156) " points="102 57.5351562 202 115.638176 202 231.535156 102.308642 173.123078"></polygon>
+                <polygon id="Rectangle-Copy-3" fill="#FF51A4" transform="translate(101.000000, 58.000000) scale(-1, 1) translate(-101.000000, -58.000000) " points="0 57.6822739 100.534562 0 202 57.6822739 100.22427 116"></polygon>
+                <polygon id="Rectangle-Copy-2" fill="#FFDF00" transform="translate(51.000000, 144.535156) scale(-1, 1) translate(-51.000000, -144.535156) " points="0 116.152178 102 57.5351562 102 173.226646 0.31097561 231.535156"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

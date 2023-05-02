@@ -583,7 +583,7 @@
 			'<button class="navigate-right" aria-label="next slide"><div class="controls-arrow"></div></button>' +
 			'<button class="navigate-up" aria-label="above slide"><div class="controls-arrow"></div></button>' +
 			'<button class="navigate-down" aria-label="below slide"><div class="controls-arrow"></div></button>' +
-			'<button class="navigate-home" aria-label="home slide"><svg width="30" height="30" xmlns="http://www.w3.org/2000/svg"><path d="M29.441 10.552L15.348.263c-.419-.35-.279-.35-.698 0L.557 10.553c-1.105.934-.457 2.377.99 2.377h1.214v14.342C2.761 28.792 3.942 30 5.43 30h5.36c.648 0 1.144-.507 1.144-1.17v-8.184c0-.662.495-1.169 1.143-1.169h3.847c.647 0 1.143.507 1.143 1.17v8.184c0 .662.495 1.169 1.143 1.169h5.399c1.486 0 2.667-1.208 2.667-2.728V12.93h1.214c1.41 0 2.057-1.443.952-2.378z" fill="#000" fill-rule="nonzero"/></svg></button>');
+			'<button class="navigate-home" aria-label="home slide"><svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Artboard" fill="#000000" fill-rule="nonzero"><path d="M25.2303754,29.9998179 L4.75255973,29.9998179 C3.49593948,30.0062773 2.28832825,29.5239863 1.39655422,28.6593212 C0.5047802,27.7946562 0.002249865,26.6187921 0,25.3915426 L0,13.1338645 C0.00928761059,11.773131 0.633918854,10.4859806 1.70648464,9.61738585 L11.9453925,1.10117445 C13.7043254,-0.367058148 16.2956746,-0.367058148 18.0546075,1.10117445 L28.2935154,9.61738585 C29.3660811,10.4859806 29.9907124,11.773131 30,13.1338645 L30,25.3915426 C29.9977776,26.6217014 29.4929057,27.800116 28.5974288,28.665265 C27.7019519,29.5304139 26.4899417,30.010734 25.2303754,29.9998179 Z M24.6395802,13.0817013 L15.6394368,5.59583037 C15.2688533,5.2875975 14.7311232,5.28758887 14.3605299,5.59580985 L5.36055074,13.0810555 C5.13211435,13.2710451 4.99999186,13.5527774 4.99999186,13.8498956 L4.99999186,23.9996296 C4.99999186,24.5519143 5.44770711,24.9996296 5.99999186,24.9996296 L24.0001144,24.9996296 C24.5523992,24.9996296 25.0001144,24.5519143 25.0001144,23.9996296 L25.0001144,13.8505208 C25.0001144,13.5534138 24.8680019,13.271691 24.6395802,13.0817013 Z" id="Path"></path></g></g></svg></button>');
 
 		// Slide number
 		dom.slideNumber = createSingletonNode( dom.wrapper, 'div', 'slide-number', '' );
@@ -3202,7 +3202,7 @@
 		if( routes.right ) dom.controlsRight.forEach( function( el ) { el.classList.add( 'enabled' ); el.removeAttribute( 'disabled' ); } );
 		if( routes.up ) dom.controlsUp.forEach( function( el ) { el.classList.add( 'enabled' ); el.removeAttribute( 'disabled' ); } );
 		if( routes.down ) dom.controlsDown.forEach( function( el ) { el.classList.add( 'enabled' ); el.removeAttribute( 'disabled' ); } );
-		if( ( routes.down && routes.up ) || routes.up) dom.controlsHome.forEach( function( el ) { el.classList.add( 'enabled' ); el.removeAttribute( 'disabled' ); } );
+		dom.controlsHome.forEach( function( el ) { el.classList.add( 'enabled' ); el.removeAttribute( 'disabled' ); } );
 
 		// Prev/next buttons
 		if( routes.left || routes.up ) dom.controlsPrev.forEach( function( el ) { el.classList.add( 'enabled' ); el.removeAttribute( 'disabled' ); } );
