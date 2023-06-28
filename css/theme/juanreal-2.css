@@ -673,10 +673,13 @@
 .white * { color: black; }
 .light-green { background: #82bfa1; }
 .dark-green { background: #62977d; }
+.electric-green { background: rgb(115, 249, 188); color: black; }
 .light-aqua { background: #84CDBB;}
 .dark-aqua { background: #00B0AF;}
 .orange { background: #e95420; }
 .red { background: #ED3024; }
+.shapeshift-red { background: rgb(255, 62, 72); }
+.shapeshift-green { background: #447238; }
 .dark-red { background: #BE2626; }
 .canon-red { background: #D52A30; }
 .light-blue { background: #009CC0; }
@@ -688,6 +691,7 @@
 .light-pink { background: #D1618F; }
 .red-purple { background: #f91c47; }
 .purple { background: #6b64ff; }
+.dark-purple { background: rgb(131, 0, 129); }
 .light-purple { background: #f3f6ff; }
 .tags .white { color: black; background: white; }
 .tags .yellow { color: black; background: #F8E612; }
